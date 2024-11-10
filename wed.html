@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>web page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="fontawesome/fontawesome-free-6.6.0-web/js/all.js"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-dar navbar-expand-lg bg-body-tertiary fixed-top"
+      data-bs-theme="dark">
+  <div class="container-fluid">
+    <img src="pikachu-removebg-preview.png"style="height:40px; border-radius: 100px;">
+    <a class="navbar-brand" href="#"> home page</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <a href="logout.html" class="text-decoration-none text-white"><i class="fa-solid fa-right-from-bracket"></i> LOGOUT</a>
+      </span>
+    </div>
+  </div>
+</nav>
+
+<div class = "row justify-content-center" style="margin-top:50px;">
+  <img class="bg-img" src="https://images.unsplash.com/photo-1628968434441-d9c1c66dcde7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bg image" style="position: absolute; top:0%; left: 0%; z-index: -1; filter: blur(10); object-fit: cover; height: 300%;">
+  <div class="col-lg-10 " >
+  <div class="row m-5 py-5 align-items-center">
+  <div class="col-md-6" > 
+
+  <h1 class="text-dark">Welcome pokemon fans</h1>
+  <p class="text-dark"> This is a website for does love pokemon.</p>
+  <div class="d-flex align-items-content">
+  <button class="btn btn-warning text-black me-2"><i class="fa-solid fa-face-smile"></i>JOIN US!</button>
+  <button class="btn btn-secondary text-black"><i class="fa-solid fa-arrow-right text-warning me-2"></i>CONTINUE</button>
+</div>
+
+  </div>
+  <div class="col-md-6 text-center">
+    <img src="charazard.png" height="300px">
+  </div>
+    
+  </div>
+</div>
+</div>
+<div class="row justify-content-center section">
+  <div class="col-lg-10">
+    <div class="row m-5 align-items-center">
+      <div class="col-md-6">
+        <h1 class="text-black">Who We Are?</h1>
+        <p class="text-white text-justify" style="font-family: 'Poppins', sans-serif;">This website is all who love pokemon</p>
+        <div class="d-flex align-items-content">
+          <a href="about.html" class="btn btn-secondary text-white"><i class="fa-solid fa-play"></i> Read More</a>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="kyogre-removebg-preview.png" height="300px">
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div class="row py-5 justify-content-center">
+  <div class="col-lg-10">
+     
+    <div class="row-justify-content-center section">
+      <div class="row py-0 justify-content-center">
+            <div class="col-lg-10">
+              <div class="text-center text-white">
+              <h2> What We Offer</h2>
+      
+              <p>The quick brown fox jumps over the lazy dog near the bank of the river.</p>
+              </div>
+
+                   
+      <div class="row">
+        <div class="card border-top border-primary" style="width: 16rem;"><br>
+          <div class="text-center">
+          <img src="pikachu-removebg-preview.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pikachu</h5>
+            </div>
+            <p class="card-text">Pikachu the electric mouse pokemon with red dot om it's chicks it can prodose an electrical charge that can zap a foes </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-top border-primary" style="width: 16rem;"><br>
+          <div class="text-center">
+          <img src="charmander-removebg-preview.png" style="height: 100px; height: 150px;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Charmander</h5>
+            </div>
+            <p class="card-text">Charmander the lizard pokemon a fire type the flame of its tail if it burn out it will die. </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-top border-primary" style="width: 16rem;"><br>
+          <div class="text-center">
+          <img src="bulbasaur-removebg-preview.png" style="height: 500px; height: 150px;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bulbasaur</h5>
+            </div>
+            <p class="card-text">Bulbasaur the frog pokemon a grass type with the big thinig on its back it can absorb sunlight. </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-top border-primary" style="width: 16rem;"><br>
+          <div class="text-center">
+          <img src="squirtle-removebg-preview.png" style="height: 500px; height: 150px;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Squirtle</h5>
+            </div>
+            <p class="card-text">Squirtle the turtle pokemon a water type that hard shell on its body it can withstand any disaster. </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      
+        
+      
+        
+      
+        <div class="row justify-content-center" style="margin-top:100px;">
+          <div class="col-md-4 text-center">
+              <i class="text-black fa-solid fa-copyright"></i>
+              <h6 class="text-black">Copyright <b>IT 2f Property</b> All Right Reserved  </h6><br>
+              <p class="text-black">Designed by <a href="https://www.facebook.com/profile.php?id=100092999626467&mibextid=ZbWKwL" class="text-decoration-none">Elson Jhon Bautista</a></p>
+          </div>
+        </div>
+
+  
+  
+  
+  
+</div>   
+          </div>     
+               
+
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
